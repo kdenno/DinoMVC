@@ -4,6 +4,7 @@ class Pages{
   {
     echo 'Pages Loaded';
   }
+  public function index() {}
 }
 
 ?>
