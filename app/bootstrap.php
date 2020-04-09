@@ -1,3 +1,8 @@
 <?php
-echo 'bootstrap is here';
+ // Load Libraries
+ require_once 'libraries/core.php';
+ //require_once 'libraries/controller.php';
+ //require_once 'libraries/database.php';
+$params = new Core;
+
 ?>
