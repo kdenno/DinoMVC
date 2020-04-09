@@ -1,3 +1,3 @@
 <?php
-echo 'it works';
+require '../app/bootstrap.php';
 ?>
