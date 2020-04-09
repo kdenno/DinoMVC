@@ -30,7 +30,7 @@ class Core
     }
     $params = $url ? array_values($url) : [];
     // call class methods with an array of inputs
-    call_user_func([$this->currentController, $this->currentMethod], $params);
+    call_user_func([$this->currentController, $this->currentMethod], $params); 
   }
   public function getUrl()
   {
