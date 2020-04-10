@@ -5,6 +5,10 @@ class Pages extends Controller{
   }
   public function index() {
     // since index is the default method 
-    $this->loadView('hello');
+    $data = ['title'=>'Welcome'];
+    $this->loadView('pages/index', $data);
+  }
+  public function about() {
+    $this->loadView('pages/about');
   }
 }
