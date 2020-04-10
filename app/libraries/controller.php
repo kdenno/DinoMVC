@@ -9,7 +9,7 @@ class Controller
   public function model($model)
   {
     // require model file
-    require '../models' . $model . '.php';
+    require '../app/models/' . $model . '.php';
     return new $model();
   }
 

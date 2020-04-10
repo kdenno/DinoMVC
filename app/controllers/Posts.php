@@ -1,8 +1,10 @@
 <?php
-class Posts {
+class Posts extends Controller {
+  private $model;
   public function __construct()
   {
-    echo 'Posts Loaded';
+    $this->model = $this->model('Post');
+    
   }
 }
 ?>
