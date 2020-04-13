@@ -3,7 +3,8 @@
 
 ## Usage
 ```
-- Rename "app/config/configphp.php to config.php" and update the values/settings to your own
+- Rename "app/config/configphp.php to config.php" and update the values/settings to your own.
+- Clone the repo to your local drive and create PHP projects in a simpler and an organized way
 ```
 - Version 1.0.0
 - License: MIT
